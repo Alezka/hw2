@@ -119,6 +119,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "myhmtwo"
+    }
+  },
+  "defaultProject": "myhmtwo",
+  "cli": {
+    "analytics": "6c96145b-d8a3-4ae7-90f5-97745e6c479c"
+  }
 }
