@@ -11,7 +11,7 @@ export class AllComentsComponent implements OnInit {
   coments: ComentModel[];
 
   constructor(private activatedRoute: ActivatedRoute) {
-    this.coments = this.activatedRoute.snapshot.data.allComent;
+    this.coments = this.activatedRoute.snapshot.data.allComents;
   }
 
   ngOnInit(): void {

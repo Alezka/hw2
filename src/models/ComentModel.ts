@@ -1,6 +1,6 @@
 export class ComentModel {
   id: number;
-  userId: number;
+  postId: number;
   name: string;
   email: string;
   body: string;

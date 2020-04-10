@@ -13,6 +13,6 @@ export class ComentService {
   }
 
   getComents(): Observable<ComentModel[]> {
-    return this.http.get<ComentModel[]>('https://jsonplaceholder.typicode.com/users');
+    return this.http.get<ComentModel[]>('https://jsonplaceholder.typicode.com/comments');
   }
 }

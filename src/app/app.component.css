@@ -1,3 +1,26 @@
+*{
+  margin: 0;
+  padding: 0;
+  outline: 0;
+  box-sizing: border-box;
+}
 h1{
   background: silver;
+}
+.center{
+  display: flex;
+  justify-content: center;
+}
+a{
+  margin: 5px 50px;
+}
+.radius {
+  background: #f0f0f0; /* Цвет фона */
+  border: 1px solid black; /* Параметры рамки */
+  padding: 10px 20px; /* Поля вокруг текста */
+  margin-bottom: 10px; /* Отступ снизу */
+  border-radius: 20%;
+}
+.bg_aqua{
+  background: aqua;
 }
